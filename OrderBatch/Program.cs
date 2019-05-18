@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrderPrice
+namespace OrderBatch
 {
     class Program
     {
