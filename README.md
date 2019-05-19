@@ -1,7 +1,33 @@
+# OrderByCity
+
+**Parameters** (*)
+* '<Path_to_zip_codes_file>': path to the file that contains the zip codes
+* '<Path_to_orders_file>': path to the file that contains the orders
+
+#Examples to run: (*)
+* From source code path: 'dotnet run codigos_postais.csv orders.csv'
+* From dll path........: 'dotnet OrderByCity.dll codigos_postais.csv orders.csv'
+
+------------
+
+# OrderBatch
+
+**Parameters** (*)
+* '<Path_to_orders_file>': path to the file to be processed
+
+#Examples to run: (*)
+* From source code path: 'dotnet run orders.csv'
+* From dll path........: 'dotnet OrderBatch.dll orders.csv'
+
+------------
+
 # OrderPrice
-# FF Test
 
-To run, go to release folder and execute from command line:
-dotnet OrderPrice.dll <Path_to_zip_codes_file> <Path_to_orders_file>
+**Parameters** (*)
+* '<Path_to_orders_file>': path to the file to be processed
 
-Exemple: dotnet OrderPrice.dll Data\codigos_postais.csv Data\orders.csv
+#Examples to run: (*)
+* From source code path: 'dotnet run orders.csv'
+* From dll path........: 'dotnet OrderPrice.dll orders.csv'
+
+------------
