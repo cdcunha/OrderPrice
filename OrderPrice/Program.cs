@@ -14,7 +14,7 @@ namespace OrderByCity
             if (args.Length == 0 || string.IsNullOrWhiteSpace(args[0]))
             {
                 Console.WriteLine("You must run with the following program arguments:");
-                Console.WriteLine("1) '<<Path_to_orders_file>>': path to the file to be processed");
+                Console.WriteLine("1) '<Path_to_orders_file>': path to the file to be processed");
                 Console.WriteLine();
                 Console.WriteLine("Examples:");
                 Console.WriteLine("1) To run from source code: 'dotnet run orders.csv'");
